@@ -6,7 +6,7 @@ function [exception,RF] = findRFOnline_v1()
 
 AssertOpenGL;
 exception=0;
-WHICHRIG = 0;           % which computer run on?  Intracellular=1, Laser = 2, Tobi's laptop=0
+WHICHRIG = 1;           % which computer run on?  Intracellular=1, Laser = 2, Tobi's laptop=0
                         % if set to 0, don't expect any digital inputs
 NUMFLASHES = 6;
 
